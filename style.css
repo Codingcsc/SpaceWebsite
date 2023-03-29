@@ -1,0 +1,75 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+nav a:hover {
+  border-radius: 20%;
+  background-color:blueviolet;
+   }
+
+nav a:active {
+  text-decoration: none;
+  border: ridge 2px green;
+  background-color: blueviolet;
+}
+
+ nav  {
+   background-color: lightblue;
+   
+
+
+   
+ }
+
+body {
+       background-image: url("https://miro.medium.com/max/1200/1*9IIoxOcIbhMFFKMCI2ncuQ.jpeg");
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+p {
+  color:lightblue;
+}
+
+h1, a {
+  color: lightcyan;
+}
+
+h1:first-letter, a:first-letter; {
+  font-size: 2cm;
+}
+
+
+
+
+li, a {
+  color:lightcyan;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 20px;
+}
+
+a[target="_blank"] {
+  background-color: blue;
+  color: white;
+}
+
+img {
+  margin: 30px;
+  width: 40%;
+}
+
+
+  
+  
+
+
+
+
+
+/* h1 = selector  
+:first-letter =pseudo-class
+property= font-size
+value= 2cm */
